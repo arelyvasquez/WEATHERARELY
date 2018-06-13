@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="Clima">
+<head>
+	<meta charset="utf-8">
+	<title>Weather Forecas Api</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="https://images-eu.ssl-images-amazon.com/images/I/71tvwXSZYaL.png">
+	
+	
+</head>
+<body ng-controller="temperatura">
+	<div class="clim">
+		<br>
+		<br>
+		<br>
+		<div id="e">
+			<h1>El Clima</h1>
+		</div>
+		
+	</div>
+	<br><br>
+	<center>
+	<div id="star">	
+
+			<br><br><br>
+		<center>
+			<label>Ingrese País</label>
+			<input type="texto"  ng-model="Pais">
+			<button type="texto" ng-click="paises(Pais)">Buscar</button>
+		</center> <br><br><br>
+
+		<center>
+			<div class="medition">
+				<h2>Temperatura Máxima</h2>
+				<p>{{tempmax}}</p>
+			</div><br>
+
+			<div class="medition">
+				<h2>Temperatura Mínima</h2>
+				<p>{{tempmin}}</p>
+			</div><br>
+
+			<div class="medition">
+				<h2>Humedad</h2>
+				<p>{{hume}}</p>
+			</div><br>
+
+			<div class="medition">
+				<h2>Presión</h2>
+				<p>{{presion}}</p>
+			</div>
+		</center>
+	</div>
+	</center>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

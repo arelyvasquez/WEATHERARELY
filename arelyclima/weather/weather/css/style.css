@@ -1,0 +1,50 @@
+body{
+	background-image:url("https://transformtheworldartistically.files.wordpress.com/2013/11/nastol-com-ua-11365.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+}
+h1{
+	font-family:Broadway;
+	font-size:60px;
+	text-align:center;
+	margin:auto;
+	color:white;
+}
+h2{
+	font-family:Algerian;
+	font-size:20px;
+	color:white;
+}
+p{
+	font-size:25px;
+	font-family:Castellar;
+	color:#8A0886;
+}
+#e{
+	margin:auto;
+	background-color:#862d59;
+}
+
+
+label{
+	font-family:Algerian;
+	font-size:30px;
+	color:white;
+}
+.medition{
+	width:340px;
+	height:140px;
+	background-color:#01A9DB;
+	border:inset 8px;
+	border-color:yellow;
+	
+}
+#star{
+
+	width:50%;
+	padding-bottom:5px;
+	border-radius:20px;
+	
+}
